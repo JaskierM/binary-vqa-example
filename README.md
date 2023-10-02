@@ -1,1 +1,1 @@
-# binary-vqa-example
+# Binary Visual Question Answering Example
