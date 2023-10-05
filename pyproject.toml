@@ -10,14 +10,18 @@ keywords = ["llm", "vqa", "visual", "question", "answering"]
 
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.13"
+python = ">=3.9,<3.13"
+torch = "2.0.0"
+torchvision = "0.15.1"
+transformers = "^4.34.0"
+datasets = "^2.14.5"
+matplotlib = "^3.8.0"
 
 
 [tool.poetry.group.research.dependencies]
 numpy = "^1.26.0"
 pandas = "^2.1.1"
 jupyter = "^1.0.0"
-
 
 [build-system]
 requires = ["poetry-core"]
